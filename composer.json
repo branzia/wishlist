@@ -1,0 +1,19 @@
+{
+    "name": "branzia/wishlist",
+    "description": "Branzia Multiple Wishlist Package for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Branzia\\Wishlist\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Visvanathan D",
+            "email": "visvanathan.tech@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
