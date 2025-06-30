@@ -3,6 +3,10 @@
     "description": "Branzia Multiple Wishlist Package for Laravel",
     "type": "library",
     "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "branzia/customer": "@dev"      
+    },
     "autoload": {
         "psr-4": {
             "Branzia\\Wishlist\\": "src/"
@@ -14,6 +18,17 @@
             "email": "visvanathan.tech@gmail.com"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Branzia\\Wishlist\\WishlistServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }, 
+    "config": {
+        "sort-packages": true
+    },
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true
 }

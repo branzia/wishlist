@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('customer_id')->constrained('customers')->onDelete('cascade');
             $table->string('name'); // e.g., "Birthday", "Office Supplies"
-            $table->timestamps();        
+            $table->timestamps();
         });
     }
 
